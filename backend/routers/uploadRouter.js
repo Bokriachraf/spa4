@@ -1,7 +1,8 @@
-import multer from "multer";
+// import multer from "multer";
 // import express from "express";
 import { isAuth } from "../utils.js";
 const express = require("express");
+const multer = require("multer");
 const uploadRouter = express.Router();
 
 const storage = multer.diskStorage({
