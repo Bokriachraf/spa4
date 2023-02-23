@@ -1,5 +1,5 @@
 // import jwt from "jsonwebtoken";
-const jwt = require("jwt");
+const jwt = require("jsonwebtoken");
 
  const generateToken = (user) => {
   return jwt.sign(
