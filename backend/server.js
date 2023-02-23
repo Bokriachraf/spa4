@@ -51,15 +51,15 @@ app.use("/api/orders", orderRouter);
 app.get("/api/config/paypal", (req, res) => {
   res.send(process.env.PAYPAL_CLIENT_ID || "sb");
 });
-const __dirname = path.resolve();
-app.use("/uploads", express.static(path.join(__dirname, "/uploads")));
+const __variableOfChoice = path.resolve();
+app.use("/uploads", express.static(path.join(__variableOfChoice, "/uploads")));
 
 // if  (process.env.NODE_ENV === 'production') {
 
 // }
-app.use(express.static(path.join(__dirname, "/frontend/build")));
+app.use(express.static(path.join(__variableOfChoice, "/frontend/build")));
 app.get("*", (req, res) =>
-  res.sendFile(path.join(__dirname, "/frontend/build/index.html"))
+  res.sendFile(path.join(__variableOfChoice, "/frontend/build/index.html"))
 );
 
 // app.get("/", (req, res) => {
