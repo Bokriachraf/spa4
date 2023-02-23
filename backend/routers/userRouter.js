@@ -12,7 +12,7 @@ const data = require("../models/userModel.js");
 const generateToken = require("../utils.js");
 const expressAsyncHandler = require("express-async-handler");
 
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 
 const userRouter = express.Router();
 
