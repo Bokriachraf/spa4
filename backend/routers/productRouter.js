@@ -1,9 +1,15 @@
 // import express from "express";
-import expressAsyncHandler from "express-async-handler";
-import data from "../data.js";
-import Product from "../models/productModel.js";
-import { isAdmin, isAuth } from "../utils.js";
+// import expressAsyncHandler from "express-async-handler";
+// import data from "../data.js";
+// import Product from "../models/productModel.js";
+// import { isAdmin, isAuth } from "../utils.js";
 const express = require("express");
+const isAdmin = require("../utils.js");
+const isAuth = require("../utils.js");
+const data = require("../data.js");
+const Product = require("../models/productModel.js");
+const expressAsyncHandler = require("express-async-handler");
+
 const productRouter = express.Router();
 
 productRouter.get(
