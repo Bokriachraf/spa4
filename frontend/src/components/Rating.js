@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import { Stack,Rating} from "@mui/material"
+// import { Stack,Rating} from "@mui/material"
 
 
 export default function Rate(props) {
