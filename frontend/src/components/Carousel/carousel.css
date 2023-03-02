@@ -1,6 +1,6 @@
 .card-slider{
   height: 160px;
-  margin:bottom 70% ;
+  /* margin:bottom 70% ; */
   position: absolute;
   width: 100%;
   display: block;
@@ -54,4 +54,11 @@ img:hover{
 }.card-slider::after{
   right: 0;
   top:0 ;
+}
+
+@media screen and (max-width: 600px) {
+  img{
+    width: 85%;
+    height:80% ;
+  }
 }

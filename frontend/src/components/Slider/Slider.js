@@ -49,7 +49,7 @@ const Slider = () => {
           >
             {index === currentSlide && (
               <div>
-                <img src={slide.image} alt="slide" className="image" />
+                <img src={slide.image} alt="slide"  />
                 <div className="content">
                   <h2>{slide.heading}</h2>
                   <p>{slide.desc}</p>
