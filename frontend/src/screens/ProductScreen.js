@@ -66,16 +66,16 @@ export default function ProductScreen(props) {
                   <ul>
                     <li>
                       <div className="row">
-                        <div>Price</div>
-                        <div className="price">{product.price} DT</div>
+                        <div>Phone : </div>
+                        <div className="tel">{" "}{  product.phone} </div>
                       </div>
                     </li>
                     <li>
                       <div className="row">
                         <div>Status</div>
                         <div>
-                          {product.countInStock > 0 ? (
-                            <span className="success">In Stock</span>
+                          {product.phone > 0 ? (
+                            <span className="success">Available</span>
                           ) : (
                             <span className="danger">Unavailable</span>
                           )}

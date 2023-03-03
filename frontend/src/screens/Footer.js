@@ -11,21 +11,21 @@ export default function Footer() {
           <div className=" col-footer">
             <h5 className=" col_white_amrc pt2">NOUS CONTACTER</h5>
             <p>
-              <i className="fa fa-location-arrow"></i> Avenue Inneba Ben Arous{" "}
+              <i className="fa fa-location-arrow"></i> Avenue Kaled ibn elwalid Aouina{" "}
             </p>
             <p>
-              <i className="fa fa-phone"></i> +216 50 880 779{" "}
+              <i className="fa fa-phone"></i> +216 55 480 391{" "}
             </p>
             <p>
-              <i className="fa fa fa-envelope"></i> asmaa@gmail.com{" "}
+              <i className="fa fa fa-envelope"></i> miraspa@gmail.com{" "}
             </p>
           </div>
           <hr />
           <div className=" col-footer">
             <h5>NOS PARTENAIRES</h5>
-            <p className="mb10">Gourmandise</p>
-            <p className="mb10">Masmoudi</p>
-            <p className="mb10">Megrinoise</p>
+            <p className="mb10">Supremÿa de Sisley</p>
+            <p className="mb10">Time-Filler de Filorga</p>
+            <p className="mb10">Nuxuriance Ultra de Nuxe</p>
           </div>
           <hr />
           <div className=" col-footer">
